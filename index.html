@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewpoint" content="width-device-width, initial-scale=1" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="hw_8.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/276de511b5.js"></script>
+    <script src="moment.js"></script>
+    <script src="jquery.twbsPagination.js"></script>
+    <script src="hw_8.js"></script>
+    <!-- <script src="http://cs-server.usc.edu:36076/hw_8.php"></script> -->
+    <script src="http://congress.wfchgz3zqd.us-west-2.elasticbeanstalk.com/hw_8.php"></script>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row bg-white">
+            <div class="col-md-2">
+                <button class="btn btn-secondary" type="button" onclick="displaynavbar()">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+            </div>
+            <div class="col-md-10">
+                <span class = "header bold"><a href="http://sunlightfoundation.com/" target="_blank"> <img class = "img-top" src="./pics/logo.jpg"></a>Congress API</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-2 ">
+                <div id = "header_navigation">
+                    <!--  drop down will come based on JS -->
+                </div>
+            </div>
+
+            <div class="col-md-10 col-xs-12" id = "main_page">
+                <div class="page-header" id = "page-menubar">
+                    <!-- JS to display header -->
+                </div>
+
+                <div id="myCarousel" class="carousel slide">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <ul class="nav nav-tabs" id = "page-tabs">
+                                <!-- JS to display header tabs -->
+                            </ul>
+                            <div class="tab-content">
+                                <div id="state" class="tab-pane fade in active">
+                                    <div id = "display-header">
+                                        <!-- JS to display type of data -->
+                                    </div>
+                                    <div id = "display" class = "table-responsive">
+                                        <!--  JS to paste data -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <!--  For trial purpose -->
+                            <div id = "view_details">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>
